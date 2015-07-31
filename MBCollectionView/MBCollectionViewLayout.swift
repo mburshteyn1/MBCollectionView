@@ -88,8 +88,8 @@ class MBCollectionViewLayout: UICollectionViewFlowLayout {
     }
     
     override func shouldInvalidateLayoutForBoundsChange(newBounds: CGRect) -> Bool {
-        //Only invalidate if frame of collectionView changed
-        return newBounds.width != collectionView?.bounds.width
+        //Only invalidate if width of collectionView changed
+        var result = newBounds.width != collectionView?.bounds.width
+        return result;
     }
-
 }
