@@ -13,7 +13,6 @@
 		D605A2BD1B6C09CB00289C59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D605A2BB1B6C09CB00289C59 /* LaunchScreen.xib */; };
 		D605A2C91B6C09CB00289C59 /* MBCollectionViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D605A2C81B6C09CB00289C59 /* MBCollectionViewSampleTests.swift */; };
 		D605A2D91B6C114600289C59 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D605A2D81B6C114600289C59 /* CollectionViewController.swift */; };
-		D605A2DA1B6C123500289C59 /* MBCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D605A2D61B6C112600289C59 /* MBCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		D605A2C21B6C09CB00289C59 /* MBCollectionViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBCollectionViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D605A2C71B6C09CB00289C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D605A2C81B6C09CB00289C59 /* MBCollectionViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBCollectionViewSampleTests.swift; sourceTree = "<group>"; };
-		D605A2D61B6C112600289C59 /* MBCollectionView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBCollectionView.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MBCollectionView-apklxksurkdcraffjclwjqaifaxw/Build/Products/Debug-iphoneos/MBCollectionView.framework"; sourceTree = "<group>"; };
 		D605A2D81B6C114600289C59 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D605A2DA1B6C123500289C59 /* MBCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +59,6 @@
 		D605A2A41B6C09CB00289C59 = {
 			isa = PBXGroup;
 			children = (
-				D605A2D61B6C112600289C59 /* MBCollectionView.framework */,
 				D605A2AF1B6C09CB00289C59 /* MBCollectionViewSample */,
 				D605A2C51B6C09CB00289C59 /* MBCollectionViewSampleTests */,
 				D605A2AE1B6C09CB00289C59 /* Products */,
